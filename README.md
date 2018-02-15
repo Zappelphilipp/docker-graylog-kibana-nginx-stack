@@ -14,12 +14,12 @@ Change the hash in case you want to change the password for the kibana-login mas
 
 ## Install
 move into the directory where your docker-compose.yml is.
-'''
+```
 docker-compose up
-'''
+```
 
 ## Run
-connect to graylog: http://<IP>:9000
+connect to graylog: http://<IP>:9000   
 connect to kibana: http://<IP>:5601
 
 I haven't changed the ports becaue this are the default ports for graylog/kibana. Change it in docker-compose.yml if you want.
